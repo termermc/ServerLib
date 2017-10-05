@@ -1,11 +1,11 @@
 # ServerLib
 A super-tiny, super-easy, and super-quick library for building Java socket servers!
 To find the javadoc, visit https://termermc.github.io/website/javadocs/serverlib/
-<h2>What can I do with this?</h2>
+# What can I do with this?
 This library allows you to build a Java socket server in an event-based manner. ServerLib also simplifies setup, as you do not have to handle threads and connection handling yourself.
-<h2>Code Examples</h2>
-<b>Repeat a string sent to the server</b>
-
+# Code Examples
+**Repeat a string sent to the server**
+```
 <code>
 import net.termer.serverlib.*
 import java.io.*
@@ -34,4 +34,4 @@ public class StringResponder {
     }
   }
 }
-</code>
+```
