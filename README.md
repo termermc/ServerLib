@@ -6,7 +6,6 @@ This library allows you to build a Java socket server in an event-based manner. 
 # Code Examples
 **Repeat a string sent to the server**
 ```
-<code>
 import net.termer.serverlib.*
 import java.io.*
 import java.net.*
