@@ -5,7 +5,7 @@ To find the javadoc, visit https://termermc.github.io/website/javadocs/serverlib
 This library allows you to build a Java socket server in an event-based manner. ServerLib also simplifies setup, as you do not have to handle threads and connection handling yourself.
 # Code Examples
 **Respond to a string sent to the server**
-```
+```java
 import net.termer.serverlib.*
 import java.io.*
 import java.net.*
